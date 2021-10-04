@@ -1,20 +1,20 @@
-from mccurdy import McCurdyChat
-from austin import AustinChat
-from gavin import GavinChat
+import mccurdy
+import austin
+import gavin
 
+from baseChat import CHAT_OBJECTS
 
 def chat(text):
-  chatBotClasses = [McCurdyChat, AustinChat, GavinChat]
-
   if text.lower() == "help":
     helpStrings = []
-    for cls in chatBotClasses:
-      helpStrings.extend(cls.help())
+    for obj in CHAT_OBJECTS:
+      print("hi")
+      helpStrings.extend(obj.help())
 
     return "I know how to do the following:\n" + "\n".join(helpStrings)
 
-  for cls in chatBotClasses:
-    response = cls.chat(text)
+  for obj in CHAT_OBJECTS:
+    response = obj.chat(text)
 
     if response:
       return response

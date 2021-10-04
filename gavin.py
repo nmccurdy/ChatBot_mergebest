@@ -1,12 +1,15 @@
-from baseChat import BaseChat
+from baseChat import BaseChat, addChatObject
 
 class GavinChat(BaseChat):
-  def chat(text):
+  def chat(self,text):
     if text == "it's friday!":
       return "yooooo!"
     
 
     return None
   
-  def help():
+  def help(self):
     return ["it's friday!"]
+
+chatObject = GavinChat()
+addChatObject(chatObject)

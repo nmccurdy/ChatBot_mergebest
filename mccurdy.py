@@ -1,9 +1,9 @@
 import random
 import re
-from baseChat import BaseChat
+from baseChat import BaseChat, addChatObject
 
 class McCurdyChat(BaseChat):
-  def chat(text):
+  def chat(self, text):
     greetingOptions = ["hello", "hi", "hey", "yo", "hola", "namaste"]
 
     myFavorites = {"animal":"a dog", 
@@ -36,6 +36,10 @@ class McCurdyChat(BaseChat):
     
     return None
 
-  def help():
+  def help(self):
     return["What is your favorite ",
             "hello"]
+
+
+chatObject = McCurdyChat()
+addChatObject(chatObject)

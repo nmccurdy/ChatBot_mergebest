@@ -1,6 +1,12 @@
+CHAT_OBJECTS = []
+
+def addChatObject(chatObject):
+  print("hello")
+  CHAT_OBJECTS.append(chatObject)
+
 class BaseChat:
-  def chat(text):
+  def chat(self, text):
     return None
 
-  def help():
+  def help(self):
     return []
