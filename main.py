@@ -8,10 +8,9 @@ def chat(text):
   if text.lower() == "help":
     helpStrings = []
     for obj in CHAT_OBJECTS:
-      print("hi")
       helpStrings.extend(obj.help())
 
-    return "I know how to do the following:\n" + "\n".join(helpStrings)
+    return "I know how to do the following:\n  * " + "\n  * ".join(helpStrings)
 
   for obj in CHAT_OBJECTS:
     response = obj.chat(text)
