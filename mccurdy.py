@@ -2,6 +2,7 @@ import random
 import re
 from baseChat import BaseChat, addChatObject
 
+
 class McCurdyChat(BaseChat):
   def chat(self, text):
     greetingOptions = ["hello", "hi", "hey", "yo", "hola", "namaste"]

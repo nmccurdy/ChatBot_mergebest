@@ -21,6 +21,7 @@ def chat(text):
     
   return "I'm still learning.  Try saying hello."
 
-while(True):
-  userInput = input(">>> ")
-  print(chat(userInput))
+if __name__ == "__main__":
+  while(True):
+    userInput = input(">>> ")
+    print(chat(userInput))
