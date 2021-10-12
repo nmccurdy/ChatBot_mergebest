@@ -1,6 +1,7 @@
 import mccurdy
 import austin
 import gavin
+import brendan
 
 from baseChat import CHAT_OBJECTS
 
