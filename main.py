@@ -1,6 +1,7 @@
 import mccurdy
 import austin
 import gavin
+import drew
 
 from baseChat import CHAT_OBJECTS
 
@@ -17,9 +18,9 @@ def chat(text):
 
     if response:
       return response
-
     
-  return "I'm still learning.  Try saying hello."
+  return "You have burnt out my processing unit. Please try again later."
+ 
 
 if __name__ == "__main__":
   while(True):
