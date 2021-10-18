@@ -1,7 +1,6 @@
 import mccurdy
 import austin
 import gavin
-import kameron
 import trinity
 
 from baseChat import CHAT_OBJECTS

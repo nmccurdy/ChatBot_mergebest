@@ -8,6 +8,7 @@ class trinitychat(BaseChat):
   def chat(self, text):
     greetingOptions = ["hello", "hi", "hey",  "yo", "hola", "namaste",  "heyyy",  "howdy",  "helo", "heyy"] 
     byeOptions  = ["bye", "godspeed", "goodbye", "farewell",  "peace",  "peace out",  "bye bye",  "adios"]
+    
     myFavorites = {"animal":"a cat  =^._.^= ∫",
                   "dessert":"cookies",
                   "color":"purple",
@@ -33,6 +34,8 @@ class trinitychat(BaseChat):
     for word in words:
       if word.lower() in greetingOptions:
         return random.choice(greetingOptions).capitalize()
+      if word.lower() in byeOptions:
+        return random.choice(byeOptions).capitalize()
 
     
     return None
