@@ -1,6 +1,3 @@
-import mccurdy
-import austin
-import gavin
 import drew
 
 from baseChat import CHAT_OBJECTS
@@ -19,7 +16,7 @@ def chat(text):
     if response:
       return response
     
-  return "You have burnt out my processing unit. Please try again later."
+  return "You have burnt out my processing unit. Please try again later"
  
 
 if __name__ == "__main__":

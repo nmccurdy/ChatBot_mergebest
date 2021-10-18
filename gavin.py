@@ -9,7 +9,7 @@ class GavinChat(BaseChat):
     return None
   
   def help(self):
-    return ["it's Friday!"]
+    return ["it's friday!"]
 
 chatObject = GavinChat()
 addChatObject(chatObject)
