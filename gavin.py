@@ -2,7 +2,7 @@ from baseChat import BaseChat, addChatObject
 
 class GavinChat(BaseChat):
   def chat(self,text):
-    if text == "it's friday":
+    if text == "it's friday!":
       return "yooooo!"
     
 

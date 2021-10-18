@@ -8,7 +8,7 @@ class AustinChat(BaseChat):
     return None
   
   def help(self):
-    return ["what's your name?"]
+    return ["What's your name?"]
 
 chatObject = AustinChat()
 addChatObject(chatObject)
