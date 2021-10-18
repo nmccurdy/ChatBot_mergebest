@@ -3,6 +3,7 @@ import austin
 import gavin
 import austinIRL
 import trinity
+import drew
 
 from baseChat import CHAT_OBJECTS
 
