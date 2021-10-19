@@ -1,7 +1,10 @@
 import mccurdy
 import austin
 import gavin
-import newUkasha
+import ukasha
+import gianna
+import lucas
+import jack
 
 from baseChat import CHAT_OBJECTS
 
