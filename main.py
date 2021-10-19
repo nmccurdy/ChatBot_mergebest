@@ -2,6 +2,9 @@ import mccurdy
 import austin
 import gavin
 import gavinIRL
+import austinIRL
+import trinity
+import drew
 
 from baseChat import CHAT_OBJECTS
 
