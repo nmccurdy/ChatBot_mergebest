@@ -2,7 +2,6 @@ from baseChat import BaseChat, addChatObject
 
 class GavinIRLChat(BaseChat):
   def chat(self, text):
-    print(text)
     if text == "how are you":
       return "I am fine, thanks for asking"
 
